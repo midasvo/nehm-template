@@ -67,14 +67,14 @@ typings/
 .env
 
 # .js & .js.map files inside the BusinessLoigc, DataLogic, and Entities directories.
-backend/BusinesLogic/**/*.js
-backend/BusinesLogic/**/*.js.map
+/backend/BusinesLogic/**/*.js
+/backend/BusinesLogic/**/*.js.map
 
-backend/DataLogic/**/*.js
-backend/DataLogic/**/*.js.map
+/backend/DataLogic/**/*.js
+/backend/DataLogic/**/*.js.map
 
-backend/Entities/**/*.js
-backend/Entities/**/*.js.map
+/backend/Entities/**/*.js
+/backend/Entities/**/*.js.map
 
-backend/Tests/**/*.js
-backend/Tests/**/*.js.map
+/backend/Tests/**/*.js
+/backend/Tests/**/*.js.map
