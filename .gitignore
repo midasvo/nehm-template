@@ -78,3 +78,9 @@ typings/
 
 /backend/Tests/**/*.js
 /backend/Tests/**/*.js.map
+
+/backend/API/**/*.js
+/backend/API/**/*.js.map
+
+# Generated files
+dist
