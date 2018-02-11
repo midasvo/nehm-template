@@ -1,5 +1,5 @@
 import * as BusinessLogic from "../BusinessLogic";
-import * as Entities from "../../Entities/entities";
+import * as Entities from "../../Entities/Entities";
 
 export class UserBusinessLogic implements BusinessLogic.IUserBusinessLogic {
     getUsers(): Entities.IUser[] {
