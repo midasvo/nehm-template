@@ -2,14 +2,22 @@ import express = require("express");
 import path = require("path");
 import cookieParser = require("cookie-parser");
 import bodyParser = require("body-parser");
-
+import Executor = require("./../Helpers/Executor");
 class API { //kek
     protected _api: express.Application;
 
     constructor() {
 
+        console.log("is executor thigny work?");
+        new Executor(()=> {
+            console.log("Executor is work!!!!!");
+        });
+        console.log("Creating new API...");
         this._api = this._api || this.getInstance();
+        
+        console.log("Created API instance.");
         this.setup();
+        console.log()
         return this._api;
     }
 

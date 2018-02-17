@@ -2,9 +2,15 @@
  * Export interface classes
  */
 
-export { IUser } from "../Entities/Interfaces/IUser";
+    export { IRootEntity } from "../Entities/Interfaces/IRootEntity";
+
+    export { IUser } from "../Entities/Interfaces/IUser";
+
 
 /**
  * Export concrete classes
  */
-export { User } from "../Entities/Implementations/User";
+
+    export { RootEntity } from "../Entities/Implementations/RootEntity";
+
+    export { User } from "../Entities/Implementations/User";
